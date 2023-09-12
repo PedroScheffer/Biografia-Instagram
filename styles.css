@@ -120,3 +120,7 @@ a {
         height: 32px;
     }
 }
+
+.tile-share-button {
+    outline: none;
+}
