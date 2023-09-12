@@ -19,12 +19,6 @@ header {
     margin-top: 15px;
 }
 
-.share-button svg {
-    margin-left: 12px;
-    margin-top: 10px;
-    color: rgb(0, 0, 0);
-}
-
 .container {
     width: 91%;
     max-width: 680px;
@@ -70,7 +64,6 @@ a {
     margin-left: 12px;
     margin-top: 10px;
 }
-
 
 .image-container {
     height: 96px;
@@ -119,8 +112,4 @@ a {
         width: 32px;
         height: 32px;
     }
-}
-
-.tile-share-button {
-    outline: none;
 }
