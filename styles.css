@@ -88,3 +88,35 @@ a {
     width: 44px;
     height: 44px;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .tile {
+        width: 100%;
+    }
+
+    .image-container {
+        height: 72px;
+        width: 72px;
+    }
+
+    .icon {
+        width: 32px;
+        height: 32px;
+    }
+}
