@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(95, 95, 95);
-    color: rgb(240,240,240);
+    color: rgb(240, 240, 240);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -41,7 +41,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: rgb(240,240,240);
+    color: rgb(240, 240, 240);
 }
 
 .tile {
@@ -63,7 +63,7 @@ a {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgb(52,52,52);
+    background-color: rgb(52, 52, 52);
 }
 
 .tile-share-button svg {
@@ -87,4 +87,9 @@ a {
     margin: 4px 8px;
     width: 44px;
     height: 44px;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
 }
