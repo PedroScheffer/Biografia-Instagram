@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(95, 95, 95);
-    color: rgb(240, 240, 240);
+    color: rgb(37, 37, 37);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -29,14 +29,13 @@ header {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 30px;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
-    all: unset;
+    color: white;
 }
 
 .tile {
@@ -60,6 +59,7 @@ a {
     border-radius: 20px;
     background-color: rgb(52, 52, 52);
     user-select: none;
+    color: inherit;
 }
 
 .tile-share-button svg {
@@ -81,7 +81,7 @@ a {
 .icon {
     margin: 4px 8px;
     width: 44px;
-    height: 44px;
+    height: 47px;
 }
 
 @media screen and (max-width: 600px) {
@@ -114,4 +114,15 @@ a {
         width: 32px;
         height: 32px;
     }
+
+    .tile-share-button {
+        user-select: none;
+        color: inherit;
+    }
+
+    a {
+        user-select: none;
+        color: inherit;
+    }
+
 }
