@@ -58,6 +58,7 @@ a {
     height: 40px;
     border-radius: 20px;
     background-color: rgb(52, 52, 52);
+    user-select: none;
 }
 
 .tile-share-button svg {
